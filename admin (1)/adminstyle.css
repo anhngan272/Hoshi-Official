@@ -1,0 +1,114 @@
+#content{
+	width:80%;
+	float:left;
+	height:600px;
+	}
+	
+.pagination {
+    display: inline-block;
+}
+.pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+	border: 1px solid #ddd;
+	float: left;
+	margin: 4px 4px;
+}
+
+.pagination a:active {
+    background-color: #FAD7DA;
+}
+
+.pagination a:hover {background-color: #ddd;}
+.item div,
+img {
+    float: left;
+}
+
+.item {
+    width: 670px;
+    float: left;
+    margin-top: 10px;
+	margin-left:15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #AEAEAE;
+}
+#admintop div{
+	background: #FCC; 
+	color: Black; 
+	line-height:50px;
+	padding:20px;
+}
+
+.topleft{
+		text-align:left;
+		width:683px;
+		float:left;
+		vertical-align:middle;
+	}
+.topright{ 
+		text-align:right;
+		width:683px;
+		float:right;
+		vertical-align:middle;
+	}
+#admin-name{
+	margin-left:10px;
+}
+#noidungcontent table{
+	margin-left:20px;
+	margin-top:20px;	
+}
+.table_order {
+    width: 1027px;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+    border-spacing: 0;
+    border: 1px solid #EAEAEA;
+}
+
+.table_order tr:first-child th {
+   
+    padding: 10px 0 10px 0;
+}
+.table_order td {
+    padding: 5px;
+}
+
+.table_cate {
+    width: 660px;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+    border-spacing: 0;
+    border: 1px solid #EAEAEA;
+}
+.table_cate th:first-child {
+    padding: 10px 0 10px 0;
+}
+.user_title {
+	text-shadow: 1px 1px 2px gray;
+    border-bottom: 5px solid #EAEAEA;
+	text-align:center;
+}
+.table_user {
+    width: 1027px;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-align: center;
+    border-spacing: 0;
+    border: 1px solid #EAEAEA;
+}
+.table_user tr:first-child th {
+    padding: 10px 0 10px 0;
+}
+.right-menu{
+	padding-left:20px;
+}
+#right-content{
+	display:none;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Hoshi | Star and Constellations</title>
+  <link rel="stylesheet" href="./mystyle.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link  rel="icon" type="image/jpg" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnlLV0H8SUz5xLraDm4rNvfHJjtnX0vDeZfn8Ll-U8bADBK3FLWQ" />
+  <script src="./productscript.js"></script>
+  <script src="./checkLoginStatus.js"></script>
+  <style>
+	*{
+	margin:0;
+}	 
+	  
+#content{
+	width:80%;
+	float:left;
+	height:800px;
+	}
+	
+.pagination {
+    display: inline-block;
+}
+.pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+	border: 1px solid #ddd;
+	float: left;
+	margin: 4px 4px;
+}
+
+.pagination a:active {
+    background-color: #FAD7DA;
+}
+
+.pagination a:hover {background-color: #ddd;}
+</style>
+</head>
+	  <header id="header">
+	<div align="center" style="background: #FAD7DA; color: #FFFFFF;">WELCOME TO HOSHI. YOUR JOURNEY TO ACQUIRE A STAR OF YOUR OWN</div>
+    <div align="center" id="logo">
+      <a href="Hoshi.html"><img src="https://i.imgur.com/XME30IE.png" alt="logo" height="100px"></a>
+    </div>
+    <div align="center" class="header-center" id="home">
+      <a class="button" href="Hoshi.html">Home</a><a class="button" href="product.html?Basic&0">Shop</a>
+    </div>
+	<div class="header-right">
+		<a href="./shopping-bag.html" title="Shopping cart">
+                    <img alt="shopping-cart" src="https://i.imgur.com/REgZiHy.png">
+                </a>
+				<i id="user-zone"></i>
+                <a href="login.html" title="Login" id="loginbtn">
+                    <img alt="login" src="https://i.imgur.com/WF1Q9p5.png.png">  
+                </a>
+	  </div>
+    
+	  </header>
+<body>
+	<main id="main-id">
+
+    <div class="left-menu">
+			<input id="searchValue" type="text" name="search" placeholder="Search" ><button onClick="searchurl()" style="border-radius: 2px;"><i class="fa fa-search"></i></button><br /><br />
+            From: <input type="text" id="price1" name="price1" placeholder="$00.00" size="4"/> To: <input type="text" id="price2" name="price2" placeholder="$00.00" size="4"/><button onclick="loadPrice()">OK</button>
+    	<div class="">
+    
+		<p id="menu"></p>
+        	</div>
+		</div>
+    <div id="content">
+        	  <div id="noidungcontent">	
+              </div>
+    </div>
+            
+            <div style="clear:both" align="center" id="sotrang">Page Number: </div>
+     </main>
+<footer id="footer">
+	<img alt="fr" src="https://i.imgur.com/ysVLJHc.png" style="float: right"> 
+	<div class="footer-left"  style="margin-top: 55px"><a class="button" href="FAQs.html">FAQs</a></div>
+	<div class="footer-left"><a class="button" href="terms-and-conditions.html">Terms and Conditions</a></div>
+	<div class="footer-left"><a class="button" href="privacy-policies.html">Privacy Policy</a></div>
+	<div class="footer-left"><a class="button" href="">About</a></div>
+	<img alt="paying-method" src="https://i.imgur.com/g0a2JHF.png" style="float: right">
+	<br>
+  <h7><a class="button" href="Hoshi.html">© 2018, Hoshi</a></h7>
+</footer>
+</body></html>

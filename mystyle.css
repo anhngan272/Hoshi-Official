@@ -1,0 +1,528 @@
+* {
+  box-sizing: border-box;
+	max-width: 1366px;
+	margin: auto;
+	scroll-behavior: smooth;
+}
+/*Common*/
+a{
+	color: #000000;
+	text-decoration: none;
+}
+
+a:hover{
+	color:aliceblue;
+}
+
+#logo {
+  margin: 0;
+  padding-top: 10px;
+	padding-left: 5px;
+}
+#logo img {
+  margin-left: 6%;
+  border-radius: 50%;
+  width: 100px;
+  transition: 0.5s;
+}
+#logo img:hover {
+  transform: scale(1.15, 1.15);
+}
+.button:hover{
+	background-image: url(https://cdn.shopify.com/s/files/1/2321/0267/t/1/assets/sq.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.btn{
+	color:#222222;
+	background: #FBE6E8;
+	border: none;
+	padding:10px 15px;
+	border-radius: 2px;
+	opacity: 0.9;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+
+.btn:hover{
+	opacity: 1;
+}
+
+/*Header*/
+#header {
+  background: #FFFFFF;
+  overflow: hidden;
+	background: url(https://i.imgur.com/tOoejQJ.png);
+	background-position: bottom;
+	padding-bottom: 50px;
+	background-repeat: no-repeat;
+}
+
+.header-center a {
+	margin-left: 90px;
+	margin-bottom: 16px;
+  	color:#000000;
+	font-size: 18px;
+  	border-radius: 4px;
+  	text-decoration: none;
+  	text-align: center;
+  	transition: 0.5s;
+}
+
+.header-center a:hover {
+  background: image("https://cdn.shopify.com/s/files/1/2321/0267/t/1/assets/sq.png");
+}
+
+.header-right a {
+	margin-right: 10px;
+  color:#000000;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+	float: right;
+  transition: 0.5s;
+	vertical-align: middle;
+}
+
+.header-button {
+  transform: scale(2, 1.5);
+  float: right;
+  padding: 52.8px 25px 52.8px 0;
+  display: none;
+}
+
+.header-button {
+    display: block;
+  }
+
+#user-zone{
+  	float: right;
+  	border: none;
+	margin-right: 10px;
+}
+
+/*Body*/
+body {
+  margin: 0;
+  font-family: Roboto , Arial, Helvetica, Montserrat;
+  text-shadow: 1.5px 1.5px 4px #000;
+	width: 1366px;
+}
+
+.body{
+	background: url(https://i.imgur.com/ErgfKwg.jpg);
+	background-repeat: repeat;
+	color: #C9C9C9;
+	height: 580px;
+}
+
+/*Footer*/
+#footer {
+  margin: 0;
+  padding: 16px;
+  width: 100%;
+  background: url(https://i.imgur.com/MIFHAkH.png);
+	background-repeat: no-repeat;
+}
+
+#footer a {
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+#footer h7 a:hover{
+	color: dimgray;
+	background-image: url(https://cdn.shopify.com/s/files/1/2321/0267/t/1/assets/sq.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.footer-left {
+	padding-bottom: 10px;
+}
+
+.footer-left a{
+	color: #000000;
+	text-decoration: none;
+}
+
+.footer-left a:hover{
+	color:dimgray;
+}
+
+.icon {
+  float: right;
+  width: 30px;
+  height: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.text-link{
+	background: none;
+	border: none;
+	padding-bottom: 10px;
+	
+}
+
+/*Main Page Content*/
+.brand{
+	margin-top: 100px;
+	float: right;
+	margin-right: 600px;
+	width: 400px;
+}
+
+.h1{
+	opacity: 0.75;
+	margin-left: 400px;
+	margin-top: 90px;
+}
+
+.sale{
+	margin-left: 90px;
+	margin-top: 70px;
+}
+
+.mySlides {
+              display: none;
+          }
+.dot {
+            cursor:pointer;
+            height: 13px;
+            width: 13px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+          }
+
+.active, .dot:hover {
+     background-color: #717171;	
+}
+
+#search{
+	float: left;
+	margin-bottom: 10px;
+	border: solid thin;
+	border-radius: 3px;
+	height: 25px;
+}
+
+/*Form*/
+.input{
+	border: none;
+	border-radius: 2px;
+	width: 400px;
+	height: 25px;
+	opacity: 0.7;
+}
+
+.input:focus{
+	opacity: 1;
+	border: thin solid #7E7CFF;
+}
+
+#pass{
+		border: none;
+	border-radius: 2px;
+	width: 400px;
+	height: 25px;
+	opacity: 0.7;
+}
+
+#Recover a{
+	color: darkgrey;
+}
+
+#Recover a:hover{
+	color: #FFFFFF;
+}
+
+#Create a{
+	color: darkgrey;
+}
+
+#Create a:hover{
+	color: #FFFFFF;
+}
+
+#pass:focus{
+	opacity: 1;
+	border: thin solid #7E7CFF;
+}
+
+/*FAQs*/
+.accordion {
+    background-color: #eee;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    width: 500px;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.8s;
+    border:1px solid;
+    margin-top:20px;
+	border-radius: 3px;
+}
+.active, .accordion:hover {
+    background-color: #ccc;
+    transition: 0.7s;
+}
+
+.accordion:after {
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left:5px;
+    
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    background-color: black;
+    width:500px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out;
+    color: gray;
+    border:none;
+}
+
+/*Privacy Policies*/
+.pp{
+	margin-left: 50px;
+	text-align-last: left;
+}
+
+
+/*Products Page*/
+.left-menu{
+    width:20%;
+    float:left;
+	border-right: solid black;
+	margin-top: 55px;
+}
+
+.left-menu div{
+	margin-left: 10px;
+	font-weight: bold;
+	text-shadow: none;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.left-menu a{
+	color: #000000;
+}
+
+.left-menu a:hover{
+	color: pink;
+}
+
+#main-id .left-menu input[type=text]{
+	padding: 5px;
+}
+
+#main-id .left-menu button{
+  padding: 7px 10px;
+  background:#FAD7DA;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+#content a{
+	color: #FAD7DA;
+	font-size: 20px;
+}
+
+#content a:hover{
+	color: #EC6873;
+	font-size: 20px;
+}
+
+.products{
+  padding: 10px;
+  overflow: hidden;
+}
+
+.product {
+  width: 278px;
+  height: 385px;		
+  float: left;
+  margin: 0.5em 1.2em;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  box-shadow: 3px 5px 5px -2px #999;
+  transition: 0.5s;
+	background: url(https://i.imgur.com/qenQ54S.png)
+}
+
+.product img {
+  width: 250px;
+  height:250px;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-left: 14px;
+  margin-right: auto;
+}
+
+.product .product-name a{
+    text-decoration: none;
+    color:black;
+    text-align: center;
+}
+.product .product-name p {
+  padding: 10px 0 0 0;
+  overflow: hidden;
+  font-size: 1.2rem;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+.product .product-name p:hover {
+  background-image: url(https://cdn.shopify.com/s/files/1/2321/0267/t/1/assets/sq.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.pagination {
+  display: inline-block;
+  padding:1em;
+}
+
+.pagination a {
+  color: #000;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color:#FAD7DA;
+	border-radius: 5px;
+  color: white;
+}
+
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+	border-radius: 5px;
+}
+
+.product-info {
+  max-width: 750px;
+}
+
+.aladin {
+	width: 525px;
+	float: right;
+}
+
+.product-price{
+	margin: 10px;
+	font-size: 30px;
+	color: #EC6873;
+	text-shadow: none;
+}
+
+.product-detail{
+	margin: 10px;
+	text-align: justify;
+	text-shadow: none;
+}
+
+.product-detail a{
+	color:#EC6873;
+}
+
+.product-detail a:hover{
+	transform: scale(1.15, 1.15);
+}
+
+
+.sub-star{
+	margin:10px;
+	text-align: justify;
+	text-shadow: none;
+}
+
+.sub-star a{
+	color:#EC6873;
+}
+
+.sub-star a:hover{
+	transform: scale(1.15, 1.15);
+}
+
+.img{
+	margin: 0 10px;
+	height: 300px;
+	width: 300px;
+}
+
+.location{
+	height: 300px;
+	width: 300px;
+}
+
+.warning {
+  margin: 0px;
+  background:#FAD7DA;
+  padding: 5px 20px;
+  margin-bottom: 10px;
+  border-left: 5px solid #EC6873;
+  color: #000;
+}
+/* admin login form*/
+.open-btn {
+  background: black;
+  color: black;
+  padding:20px;
+  border: none;
+  cursor: pointer;
+}
+.open-btn:hover{
+	color:red;
+}
+.form-popup {
+  display: none;
+}
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: gray;
+}
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding:5px;
+  margin: 5px 0 22px 0;
+  border: none;
+ 
+}
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px;
+  cursor: pointer;
+  width: 45%;
+  margin-left:5px;
+  opacity: 0.8;
+  float:left;
+}
+.form-container .cancel {
+  background-color: red;
+}
+.form-container .btn:hover  {
+  opacity: 1;
+}

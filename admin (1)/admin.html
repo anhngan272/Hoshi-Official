@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Hoshi | Administrator</title>
+  <link rel="stylesheet" href="../mystyle.css">
+  <link rel="stylesheet" href="./adminstyle.css">
+  <script>
+  var admin=localStorage.getItem('admin');
+  alert('Wellcome ' +admin+'!!');
+  </script>
+  <style>
+	*{
+	margin:0;
+}
+</style>
+</head>
+<body>
+	<div id="admintop">
+    <div class="topleft"><h2>Hoshi - Admin Zone<span style="margin-left:50px;">Hello<i id="admin-name"></i></span></h2></div>
+    <div class="topright"><h2><a href="../login.html" style="text-align:right" onClick="alert('Log out successfully')">LOG OUT</a></h2></div>	
+    </div>
+	<main id="main-id">
+	
+    <div class="left-menu">
+    	<div class="">
+        <a href="item.html?item&0"><p>ALL ITEM</p></a>
+        <p id="menu"></p>
+        <a href="category.html"><p>CATEGORY</p></a>
+        <a href="order.html"><p>ORDER</p></a>
+        <a href="user.html"><p>USER</p></a>
+        
+    
+		
+        	</div>
+		</div>
+    <div id="content">
+        	  <div id="noidungcontent">	
+              </div>
+    </div>
+            
+            <div style="clear:both" align="center" id="sotrang"></div>
+     </main>
+<footer id="footer">
+	<img alt="fr" src="https://i.imgur.com/ysVLJHc.png" style="float: right"> 
+	<div class="footer-left"  style="margin-top: 55px"><a class="button" href="../FAQs.html">FAQs</a></div>
+	<div class="footer-left"><a class="button" href="../terms-and-conditions.html">Terms and Conditions</a></div>
+	<div class="footer-left"><a class="button" href="../privacy-policies.html">Privacy Policy</a></div>
+	<div class="footer-left"><a class="button" href="../about-us.html">About</a></div>
+	<img alt="paying-method" src="https://i.imgur.com/g0a2JHF.png" style="float: right">
+	<br>
+  <h7><a class="button" href="../Hoshi.html">© 2018, Hoshi</a></h7>
+</footer>
+<script src="./adminscript.js"></script>
+</body></html>

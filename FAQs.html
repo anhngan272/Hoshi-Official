@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+	<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>Hoshi | FAQs</title>
+  
+  <link rel="stylesheet" href="./mystyle.css">
+  <link  rel="icon" type="image/jpg" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnlLV0H8SUz5xLraDm4rNvfHJjtnX0vDeZfn8Ll-U8bADBK3FLWQ" />
+ <script src="./checkLoginStatus.js"></script>
+
+</head>
+	  <header id="header">
+	<div align="center" style="background: #FAD7DA; color: #FFFFFF;">WELCOME TO HOSHI. YOUR JOURNEY TO ACQUIRE A STAR OF YOUR OWN</div>
+    <div align="center" id="logo">
+      <a href="Hoshi.html"><img src="https://i.imgur.com/XME30IE.png" alt="logo" height="100px"></a>
+    </div>
+  <div align="center" class="header-center" id="home">
+      <a class="button" href="Hoshi.html">Home</a><a class="button" href="product.html">Shop</a>
+    </div>
+	<div class="header-right">
+		<a href="./shopping-bag.html" title="Shopping cart"><img alt="shopping-cart" src="https://i.imgur.com/REgZiHy.png"></a>
+		<i id="user-zone"></i>
+		<a href="login.html" title="Login" id="loginbtn"><img alt="login" src="https://i.imgur.com/WF1Q9p5.png"></a>
+	  </div>
+    
+	  </header>
+<body>
+<div align="center" class="body"  style=" height:800px;">
+      <div>
+        <h1>Frequently Asked Questions</h1>
+      </div>
+
+      <button class="accordion">Is this website real?</button>
+<div class="panel">
+  <p>As you can see, this website is created solely for a university project and will not likely go live. But if you can and are reading this then that means it has gone live! Though sadly to say its intended purpose still remains the same - a university project.</p>
+</div>
+
+<button class="accordion">Can I really legally own a star?</button>
+<div class="panel">
+  <p>Unfortunately, No. This website is just a project for study purpose. And to fully understand this we have to keep in mind that stars actually are shining balls consisting of boiling gases, which cannot even be touched by a hand. On top of that stars are miles and miles away from the Earth, which makes it impossible to own one in legal terms. Even stars that are named by scientific bodies cannot and will not be owned by anyone in legal terms.
+</p>
+</div>
+
+<button class="accordion">How long is my registration valid ?</button>
+<div class="panel">
+  <p>The registration is valid till the end of the world – it is timeless. However, at some point you might be willing to change the name of the star, which can be done on demand by You, where the registration information would be amended.</p>
+</div>
+
+<button class="accordion">What methods of payment do you accept ?</button>
+<div class="panel">
+  <p>We accept Visa , MasterCard and Paypal.</p>
+</div>
+
+<button class="accordion">How to register for buying a star and make an order?</button>
+<div class="panel">
+  <p>1) Go to our Order page and choose from various star options available.</p>
+<p>2) Once ready, give your star a name, add personal message, select registration date and choose from such options as star brightness degree, specific constellation. Add to Cart and proceed to Checkout.</p>
+<p>3) Fill in your personal data, delivery information and payment information. Choose delivery method, review your order info and place an order!</p>
+</div>
+    </div>
+	
+	 <script>
+	var acc = document.getElementsByClassName("accordion");
+	var i;
+
+	  for (i = 0; i < acc.length; i++) {
+  	acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } 
+	else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+		</script>
+	
+<footer id="footer">
+	<img alt="fr" src="https://i.imgur.com/ysVLJHc.png" style="float: right"> 
+	<div class="footer-left"  style="margin-top: 55px"><a class="button" href="FAQs.html">FAQs</a></div>
+	<div class="footer-left"><a class="button" href="terms-and-conditions.html">Terms and Conditions</a></div>
+	<div class="footer-left"><a class="button" href="privacy-policies.html">Privacy Policy</a></div>
+	<div class="footer-left"><a class="button" href="about-us.html">About</a></div>
+	<img alt="paying-method" src="https://i.imgur.com/g0a2JHF.png" style="float: right">
+	<br>
+  <h7><a class="button" href="Hoshi.html">© 2018, Hoshi</a></h7>
+</footer>
+
+
+</body></html>
