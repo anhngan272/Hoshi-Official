@@ -37,6 +37,7 @@ function load_cartArr(){
 		var check=JSON.parse(localStorage.getItem('userInfo'));
 		
 		for(var i=0; i < cart.length; i++){
+			if(check.user == cart[i].user){
 		document.getElementById("items").innerHTML+='<div class="cartitem">\
                           <img src="'+ cart[i].img + '" height="100" width="110">\
                  <div style="padding-left:10px">\
@@ -49,6 +50,7 @@ function load_cartArr(){
                 </div>\
                     </div>';
 					total = total+ parseFloat(cart[i].price);
+		}
 		}
 			document.getElementById("total").innerHTML='$'+total;		
 	}	
